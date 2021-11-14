@@ -3,6 +3,8 @@
 
 //enum for the various common steps we might use with the stepper 
 enum step{
+  SMALL = 128,
+  EIGHTH = 256,
   QUARTER = 512,
   HALF = 1024,
   THREE_QUART = 1536,
